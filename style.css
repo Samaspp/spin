@@ -29,7 +29,7 @@ h1{
 #wheel{
     position: relative;
     z-index: 2;
-    top:132px;
+    top:131px;
     left: 35.8% ;
     transition: transform 0.5s ease-out;
 }
