@@ -1,0 +1,42 @@
+body{
+    background-color: #f0ecbd;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: maroon;
+}
+.spinbutton{
+    top:12%;
+    left: 48.5%;
+    position: absolute;
+    z-index: 3;
+    border:none;
+    padding: 10px;
+    color: #f0ecbd;
+    background-color: maroon;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.stand{
+    position: absolute;
+    z-index: 1;
+    top:10%;
+    left: 27% ;
+}
+
+#wheel{
+    position: relative;
+    z-index: 2;
+    top:132px;
+    left: 35.8% ;
+    transition: transform 0.5s ease-out;
+}
+
+.arrow{
+    position: relative;
+    z-index: 3;
+    bottom:60px;
+    left: 20.5% ;
+}
